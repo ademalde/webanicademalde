@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h, initial-scale=1.0">
+
+    <!--BS-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Arquitectura Demalde Lujan</title>
+</head>
+<body>
+    <!-- inicio header-->
+    
+    <header class="header">
+
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" ><img class="logo" src="imagenes/logocuadrado.jpg" alt="logo estudio de arquitectura demalde lujan"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item page">
+                <a class="nav-link enlace" href="index.html">Home</a>
+              </li>
+              <li class="nav-item page">
+                <a class="nav-link enlace" href="pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item page">
+                <a class="nav-link enlace" href="pages/obras.html">Obras</a>
+              </li>
+              <li class="nav-item page">
+                <a class="nav-link enlace" href="pages/nosotras.html">Nosotras</a>
+              </li>
+              <li class="nav-item page">
+                <a class="nav-link enlace" href="pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+    <!--inicio main-->
+    <main class="container">
+    <!--presentacion-->
+      <section class="presentacion">
+
+          <h1 class="tituloprincipal">Estudio de arquitectura Demalde Lujan</h1> 
+          <p>Te ayudamos a diseñar espacios, tenemos una variedad de servicios para que tengas el proyecto de tus sueños.</p>
+
+      </section>
+
+    <!--logo de whatsapp-->
+
+      <div class="logow">
+
+          <a href="https://api.whatsapp.com/message/WYN6CQQRFLDKI1?autoload=1&app_absent=0" target="_blank">
+              <img width="30%" src="imagenes/whatsapp.png" alt="logo whatsapp">
+          </a>
+
+      </div>
+
+    <!--carrousel-->
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/casa1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/casa2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/casa3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+   
+      <!--contenido foto y textos-->
+        
+      <section class="contenidoPrincipal">
+          
+      
+      <div class="flexContent">
+        <div class="texto1">
+
+            <h2>Proyectos y asesorías de manera presencial y a distancia</h2>
+            <p>Nuestras asesorias te van a ayudar a no gastar de mas y poder reorganizar
+            tu espacio o encontrarle la vuelta a esa fachada que siempre quedó sin terminar.
+            </p>
+
+        </div>
+  
+          <img class="img1" src="imagenes/serviciodisenodeint.jpg" alt="servicio de asesoria onliney diseño de interiores">
+      </div>
+
+      <div class="flexContentDos">
+        
+          <div class="texto2">
+            <h2>Proyectos y diseños de arquitectura residencial/comercial - presencial y a distancia</h2>
+            <p>Realizamos proyectos a tu medida, de acuerdo al presupuesto que puedas gastar 
+            te diseñanos la casa o local que se ajuste a tus necesidades</p>
+          </div>
+
+            <img class="img2" src="imagenes/servicioproyectoydiseno.jpg" alt="servicio de diseño de casa o local comercial">
+      </div>
+          
+
+      </section>
+
+        <!--formulario de contacto-->
+      <section class="formulario">
+
+        <h3> No esperes mas, contactanos para asesorarte.</h3>
+
+          <form class="contentFlexFormulario" action="" method="">
+            <label for="">Nombre y Apellido</label>
+            <input type="text" name="nombre" id="nombre">
+
+            <label for="">Correo electrónico</label>
+            <input type="email" name="Mail" id="Mail" placeholder="correo@mail.com.ar">
+
+            <label for=>Teléfono</label>
+            <input type="number" name="telefono" id="telefono">
+
+            <label for="">Consulta</label>
+            <input type="text" name="consulta" id="consulta">
+
+            <input type="button" value="Enviar">
+
+          </form>
+      
+      </section>
+
+        
+    </main>
+    
+    <!--inicio footer-->
+    <footer class="footer">
+
+      <div>
+          <img  width="100px" src="imagenes/logogris.jpeg" alt="logo estudio de arquitectura demalde lujan">
+      </div>
+      
+      
+      <div>
+          <h4>Horarios de atención</h4>
+          <p>De 8.00hs a 16hs de corrido</p>
+
+          <h4>Dirección</h4>
+          <p>San Pedro 493, Río Tercero Córdoba</p>
+
+          <h4>Datos de contacto</h4>
+          <p>Cel: 3571597893</p>
+
+      </div>
+
+      <div class="redes">
+
+          <h4>Seguinos y/o contactanos para enterarte de novedades, servicios y promociones.</h4>
+
+          <a href="https://www.instagram.com/arqdemaldelujan/" target="_blank">
+              <img width="10%" src="imagenes/logoinstagram.png" alt="logo instagram">
+          </a>
+
+      
+      </div>
+    
+    </footer>
+
+    <!--JS-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>

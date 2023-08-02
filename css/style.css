@@ -1,0 +1,438 @@
+/* #8b9595 color verde claro
+#f1e8e0 color cremita
+#b09b84 beige
+#8b9595 verde oscuro
+#787c7c gris */
+
+/* fuente */
+
+  @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Nunito+Sans:wght@300;600&family=Nunito:wght@300&display=swap');
+
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+  body{
+    font-family: 'Cabin', sans-serif;
+    font-size: 62.5%;
+  }
+
+  /*Index-------------------------------------------------------------------------------------------------------------------------*/
+
+  /*header*/
+
+
+/*
+  .contenedor-grid{
+    display: grid;
+    grid-template-areas: 
+    "header       header       header"
+    "presentacion presentacion presentacion"
+    "texto1       img1         img1"
+    "img2         img2         texto2"
+    "form         form         video"
+    "footer       footer       footer";
+
+    grid-template-rows: (6, 150px);
+    grid-template-columns:(25% 40% 25%);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+
+  }
+
+  .texto1{
+    grid-area: texto1;
+
+    }
+
+  .img1{
+    grid-area: img1;
+  }  
+
+  .texto2{
+    grid-area: texto2;
+  }
+
+  .form{
+    grid-area: formulario;
+
+  }
+
+  .video{
+    grid-area: video;
+  }
+
+  .footer{
+    grid-area: footer;
+  }
+  */
+
+  .header{
+    background-color:#b3a69a;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  
+  }
+
+  .page{
+  padding-left: 5%;
+  padding-right: 5%;
+
+  }
+
+  .logo{
+    width: 15%;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+  }
+
+ 
+
+ 
+
+/*
+  header nav{
+    width: 80%;
+
+  }
+
+
+  .items{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 300px;
+    margin-left: 100px;
+  
+  }
+*/
+  .enlace{
+    color:#181818;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+
+  
+
+  /*presentacion*/
+
+.presentacion{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 80px 0px;
+    grid-area: presentacion;
+  }
+
+  .presentacion h1{
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    text-shadow: -1px 1px 3px rgba(0,0,0,0.58);
+  }
+
+  .presentacion p{
+    font-size: 1.5rem;
+    text-align: center;
+    color:black ;
+   
+  }
+
+  /* contenido principal index*/
+
+  .contenidoPrincipal h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .contenidoPrincipal p{
+    font-size: 0.9rem;
+
+  }
+
+  .flexContent{
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+
+  .texto1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0px 100px;
+  }
+
+  /*como alineo  la imagen a la derecha con flex box o con box model*/
+
+  .img1{
+  width: 50%;
+
+  }
+
+  .flexContentDos{
+    display: flex;
+    flex-direction: row-reverse;
+
+  }
+
+  .texto2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0px 100px;
+
+  }
+
+  .img2{
+    width: 50%;
+
+  }
+  
+  /*formulario*/
+
+  .formulario{
+    background-color: #f1e8e0;
+    width: 50%;
+    font-size: 1rem;
+    color: black;
+    padding: 10px;
+
+
+  }
+
+  .formulario h3{
+    padding-left: 11px;
+
+  }
+
+  .contentFlexFormulario{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px;
+
+  }
+
+
+  /*footer*/
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+
+  .footer div h4{
+    font-size: 0.8rem;
+    font-style: italic;
+
+  }
+
+  .footer div p{
+    font-size: 0.7rem;
+
+  }
+
+  .redes{
+    width: 20%;
+   
+
+  }
+
+  .redes a{
+    padding: 10px;
+    
+  }
+
+  .logow{
+    position: sticky;
+    bottom: 20px; 
+    right: 100px; 
+    z-index: 1; 
+    width: 50%;
+  }
+
+  
+
+  
+
+  
+
+  /* Nosotras page...................................................................................................................*/
+
+  .contenedor-grid-servicios{
+    display: grid;
+    grid-template-areas: 
+    "h2   imgv"
+    "p    imgv"
+    "imgm h2"
+    "imgm p"
+    "h3   h3"
+    "imgg imga"
+   ;
+  
+    grid-template-rows: (42, 150px);
+    grid-template-columns:(25% 25% 25% 25%);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  
+  }
+
+  .presentacionEquipo{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 30px 0px;
+
+  }
+
+  .presentacion h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: black;
+    text-shadow: -1px 1px 3px rgba(0,0,0,0.58);
+    padding: 5px;
+
+  }
+
+
+
+  .contenidoPrincipalNosotras h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .contenidoPrincipalNosotras p{
+    font-size: 0.9rem;
+
+  }
+
+ .ContentFlexNosotrasUno{
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+
+ }
+
+ /*Obras---------------------------------------------------------------------------------------------------------------*/
+
+ 
+
+
+/*servicios-------------------------------------------------------------------------------------------------------------*/
+.contenedor-grid-servicios{
+  display: grid;
+  grid-template-areas: 
+  "servicio1 servicio2 servicio3 servicio4"
+  "servicio5 servicio6 servicio7 servicio8"
+ ;
+
+  grid-template-rows: (42, 150px);
+  grid-template-columns:(25% 25% 25% 25%);
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+
+}
+
+.servicio1{
+  grid-area: servicio1;
+
+}
+
+.servicio2{
+  grid-area: servicio2;
+
+}
+.servicio3{
+  grid-area: servicio3;
+
+}
+.servicio4{
+  grid-area: servicio4;
+
+}
+.servicio5{
+  grid-area: servicio5;
+
+}
+.servicio6{
+  grid-area: servicio6;
+
+}
+.servicio7{
+  grid-area: servicio7;
+
+}
+.servicio8{
+  grid-area: servicio8;
+
+}
+
+li{
+  font-size: 1rem;
+
+}
+
+/*Contacto......................................................................................................*/
+
+.contenedorMapa{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+.propia{
+  font-size: 1rem;
+  
+}
+
+.tituloForm{
+  font-size: 1.4rem;
+  font-style: italic;
+  padding-bottom: 2%;
+  text-decoration: underline;
+
+}
+
+.mapaTitulo{
+  font-size: 1.4rem;
+  padding: 2%;
+  text-decoration: underline;
+}
+
+
+  
+
+ /*Media Query------------------------------------------------------------------------------------------------*/
+
+ @media only screen and (min-width:501px) and (max-widht:960px) {
+
+
+ }
