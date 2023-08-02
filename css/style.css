@@ -22,56 +22,7 @@
 
   /*Index-------------------------------------------------------------------------------------------------------------------------*/
 
-  /*header*/
-
-
-/*
-  .contenedor-grid{
-    display: grid;
-    grid-template-areas: 
-    "header       header       header"
-    "presentacion presentacion presentacion"
-    "texto1       img1         img1"
-    "img2         img2         texto2"
-    "form         form         video"
-    "footer       footer       footer";
-
-    grid-template-rows: (6, 150px);
-    grid-template-columns:(25% 40% 25%);
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-
-
-  }
-
-  .texto1{
-    grid-area: texto1;
-
-    }
-
-  .img1{
-    grid-area: img1;
-  }  
-
-  .texto2{
-    grid-area: texto2;
-  }
-
-  .form{
-    grid-area: formulario;
-
-  }
-
-  .video{
-    grid-area: video;
-  }
-
-  .footer{
-    grid-area: footer;
-  }
-  */
-
+ 
   .header{
     background-color:#b3a69a;
     width: 100%;
@@ -97,27 +48,6 @@
   }
 
  
-
- 
-
-/*
-  header nav{
-    width: 80%;
-
-  }
-
-
-  .items{
-    list-style: none;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 300px;
-    margin-left: 100px;
-  
-  }
-*/
   .enlace{
     color:#181818;
     list-style: none;
@@ -126,7 +56,7 @@
     font-size: 1.1rem;
   }
 
-  
+
 
   /*presentacion*/
 
@@ -134,7 +64,7 @@
     background-size: cover;
     background-position: center;
     height: 100%;
-    padding: 80px 0px;
+    padding: 30px 0px;
     grid-area: presentacion;
   }
 
@@ -168,6 +98,7 @@
   .flexContent{
     display: flex;
     flex-direction: row;
+    padding-top: 3%;
     
   }
 
@@ -180,7 +111,6 @@
     padding: 0px 100px;
   }
 
-  /*como alineo  la imagen a la derecha con flex box o con box model*/
 
   .img1{
   width: 50%;
@@ -210,28 +140,25 @@
   /*formulario*/
 
   .formulario{
-    background-color: #f1e8e0;
-    width: 50%;
+    width: 100%;
     font-size: 1rem;
     color: black;
-    padding: 10px;
-
-
-  }
-
-  .formulario h3{
-    padding-left: 11px;
+    padding-top: 3%;
+    padding-bottom: 3%;
 
   }
 
-  .contentFlexFormulario{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    padding: 10px;
-
+  .tituloFormIndex{
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: italic;
+    padding-bottom: 2%;
+    height: 50%;
+    text-shadow: -1px -3px 15px rgba(174,167,167,0.65);
+  
   }
 
+  
 
   /*footer*/
 
@@ -239,6 +166,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 3%;
     
   }
 
@@ -265,18 +193,6 @@
     
   }
 
-  .logow{
-    position: sticky;
-    bottom: 20px; 
-    right: 100px; 
-    z-index: 1; 
-    width: 50%;
-  }
-
-  
-
-  
-
   
 
   /* Nosotras page...................................................................................................................*/
@@ -292,8 +208,8 @@
     "imgg imga"
    ;
   
-    grid-template-rows: (42, 150px);
-    grid-template-columns:(25% 25% 25% 25%);
+    grid-template-rows: (6, 16.5%);
+    grid-template-columns:(50% 50%);
     justify-content: center;
     align-items: center;
     justify-items: center;
@@ -418,6 +334,8 @@ li{
   font-style: italic;
   padding-bottom: 2%;
   text-decoration: underline;
+  height: 50%;
+  text-shadow: -1px -3px 15px rgba(174,167,167,0.65);
 
 }
 
