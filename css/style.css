@@ -23,16 +23,24 @@
   /*Index-------------------------------------------------------------------------------------------------------------------------*/
 
  
-  .header{
+  .propia-menu{
     background-color:#b3a69a;
-    width: 100%;
+    width: 100%; 
+  }
+
+
+  header{
     display: flex;
     justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 1;
-  
   }
+  
+
+
+
+
 
   .page{
   padding-left: 5%;
@@ -154,12 +162,11 @@
     font-size: 1.4rem;
     font-style: italic;
     padding-bottom: 2%;
-    height: 50%;
     text-shadow: -1px -3px 15px rgba(174,167,167,0.65);
   
   }
 
-  
+
 
   /*footer*/
 
@@ -167,7 +174,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 3%;
+    margin: 3%;
     
   }
 
@@ -238,6 +245,7 @@
     grid-area: item5;
     padding: 30px;
     text-align: center;
+    text-decoration: underline;
   }
 
   .grid-item6{
@@ -257,61 +265,58 @@
     text-shadow: -1px 1px 3px rgba(0,0,0,0.58);
     padding: 5px;
   }
-
+  
+  .nombre-arquitecta{
+    color: #3c6156;
+  }
+  
+  .tamano-fuente{
+    font-size: 0.8rem;
+  }
+ 
  /*Obras---------------------------------------------------------------------------------------------------------------*/
 
- 
+  .p-obras{
+    font-size: 0.8rem;
 
+  }
+ 
+  .text-body-secondary{
+    font-size: 0.8rem;
+  }
+
+  .titulo-tarjetas-obras{
+    font-size: 1.7rem;
+  }
+
+  .h3-footer{
+    font-size: 0.8rem;
+    font-style: italic;
+  }
 
 /*servicios-------------------------------------------------------------------------------------------------------------*/
-.contenedor-grid-servicios{
-  display: grid;
-  grid-template-areas: 
-  "servicio1 servicio2 servicio3 servicio4"
-  "servicio5 servicio6 servicio7 servicio8"
- ;
 
-  grid-template-rows: (42, 150px);
-  grid-template-columns:(25% 25% 25% 25%);
-  justify-content: center;
+.contenedor-tarjetas{
+  display: flex;
   align-items: center;
-  justify-items: center;
-
+  justify-content: center;
+  margin: 20px;
+  
 }
 
-.servicio1{
-  grid-area: servicio1;
+ /* .contenedor-titulo-servicios{
+    text-align: center;
+    padding: 10px;
 
-}
+  } */
 
-.servicio2{
-  grid-area: servicio2;
-
-}
-.servicio3{
-  grid-area: servicio3;
-
-}
-.servicio4{
-  grid-area: servicio4;
-
-}
-.servicio5{
-  grid-area: servicio5;
-
-}
-.servicio6{
-  grid-area: servicio6;
-
-}
-.servicio7{
-  grid-area: servicio7;
-
-}
-.servicio8{
-  grid-area: servicio8;
-
-}
+  .h2-servicios{
+    font-size: 1.3rem;
+    color: #3c6156;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+  }
 
 /*Contacto......................................................................................................*/
 
@@ -340,12 +345,16 @@
 }
 
 .mapaTitulo{
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   padding: 2%;
   text-decoration: underline;
+  color: #3c6156;
 }
 
-
+.boton-formulario{
+  background-color: #3c6156;
+  color: aliceblue;
+}
   
 
  /*Media Query------------------------------------------------------------------------------------------------*/
