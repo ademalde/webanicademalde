@@ -38,10 +38,6 @@
   }
   
 
-
-
-
-
   .page{
   padding-left: 5%;
   padding-right: 5%;
@@ -178,6 +174,10 @@
     
   }
 
+  .img-footer{
+    width: 5%;
+  }
+
 
   .footer div h4{
     font-size: 0.8rem;
@@ -189,19 +189,17 @@
     font-size: 0.7rem;
 
   }
-
-  .redes{
-    width: 20%;
-   
-
+ 
+  .img-redes-footer{
+    width: 10%;
   }
 
-  .redes a{
-    padding: 10px;
-    
-  }
+  .contenedor-redes{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
 
-  
+  }
 
   /* Nosotras page...................................................................................................................*/
 
@@ -245,7 +243,6 @@
     grid-area: item5;
     padding: 30px;
     text-align: center;
-    text-decoration: underline;
   }
 
   .grid-item6{
@@ -304,19 +301,18 @@
   
 }
 
- /* .contenedor-titulo-servicios{
-    text-align: center;
-    padding: 10px;
+.p-servicios{
+  font-size: 0.8rem;
+}
 
-  } */
-
-  .h2-servicios{
-    font-size: 1.3rem;
-    color: #3c6156;
-    font-weight: bold;
-    text-align: center;
-    padding: 10px;
-  }
+ 
+.h2-servicios{
+  font-size: 1.3rem;
+  color: #3c6156;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
 
 /*Contacto......................................................................................................*/
 
@@ -359,10 +355,100 @@
 
  /*Media Query------------------------------------------------------------------------------------------------*/
 
- @media only screen and (min-width:300px) and (max-width:500px) {
+ /*celulares--------------------------------------------------------------------*/
+ @media only screen and (max-width:500px) {
+
+  /*Index*/
 
   .presentacion h1{
-    font-size: 2.1rem;
+    font-size: 1.9rem;
   }
 
+  .presentacion p{
+    font-size: 0.9rem;
+  }
+
+  .contenidoPrincipal h2{
+    font-size: 1rem;
+  }
+
+  .flexContent{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contenidoPrincipal p {
+    font-size: 0.8rem
+  }
+
+  .img1{
+    width: 60%;
+  
+    }
+
+  .flexContentDos{
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+
+  }
+
+  .img2{
+    width: 60%;
+  
+    }
+
+  .texto1{
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0%;
  }
+
+  .texto2{
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0%;
+
+  }
+
+  .tituloFormIndex{
+    font-size: 1.2rem;
+
+  }
+
+  .img-footer{
+    width: 17%;
+    padding: 15px 0px 15px 0px;
+  }
+
+  .footer div p {
+    font-size: 0.7rem;
+}
+
+.footer{
+  flex-direction: column;
+  align-items: start;
+  border-top: #3c6156 solid 2px;
+  margin: 20px;
+  padding: 5px;
+}
+
+.footer div h4 {
+  font-size: 0.9rem;
+}
+
+.img-redes-footer{
+  width: 8%;
+}
+
+.contenedor-redes{
+  width: 100%;
+}
+
+/*Obras*/
+
+
+
+}
