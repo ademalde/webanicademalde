@@ -1,0 +1,42 @@
+/*header...........................................................................................*/
+//header..........................................................................................//
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+
+    .propia-menu{
+      background-color:#b3a69a;
+      width: 100%; 
+
+      .logo{
+        width: 15%;
+        margin-left: 5px;
+        margin-right: 5px;
+        
+      }
+      
+    .page{
+      padding-left: 5%;
+      padding-right: 5%;
+
+      .enlace{
+        color:#181818;
+        list-style: none;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.1rem;
+      }
+
+        }
+
+   
+
+    }
+    
+
+
+  }
