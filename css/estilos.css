@@ -10,43 +10,76 @@ body {
   box-sizing: border-box;
 }
 
-.index-container .presentacion {
+.presentacion {
   background-size: cover;
   background-position: center;
   height: 100%;
   padding: 30px 0px;
   grid-area: presentacion;
 }
-.index-container .presentacion h1 {
+.presentacion h1 {
   font-size: 3rem;
   text-align: center;
   color: black;
   text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.58);
 }
-.index-container .presentacion p {
+.presentacion p {
   font-size: 1.5rem;
   text-align: center;
   color: black;
 }
-.index-container .presentacion .contenidoPrincipal h2 {
+
+.index-container .contenidoPrincipal h2 {
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: underline;
 }
-.index-container .presentacion .contenidoPrincipal .flexContent {
+.index-container .contenidoPrincipal .flexContent {
   display: flex;
   flex-direction: row;
   padding-top: 3%;
 }
-.index-container .presentacion .contenidoPrincipal p {
-  font-size: 1rem;
+.index-container .contenidoPrincipal .flexContent .img1 {
+  width: 50%;
 }
-.index-container .presentacion .contenidoPrincipal .texto1 {
+.index-container .contenidoPrincipal .flexContent .texto1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
   padding: 0px 100px;
+}
+.index-container .contenidoPrincipal p {
+  font-size: 1rem;
+}
+.index-container .contenidoPrincipal .flexContentDos {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.index-container .contenidoPrincipal .flexContentDos .texto2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 0px 100px;
+}
+.index-container .contenidoPrincipal .flexContentDos .img2 {
+  width: 50%;
+  padding-top: 2%;
+}
+.index-container .formulario {
+  width: 100%;
+  font-size: 1rem;
+  color: black;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.index-container .formulario .tituloFormIndex {
+  text-align: center;
+  font-size: 1.4rem;
+  font-style: italic;
+  padding-bottom: 2%;
+  text-shadow: -1px -3px 15px rgba(174, 167, 167, 0.65);
 }
 
 /*header...........................................................................................*/
@@ -76,6 +109,46 @@ header .propia-menu .page .enlace {
   text-decoration: none;
   font-weight: bold;
   font-size: 1.1rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3%;
+}
+.footer .img-footer {
+  width: 5%;
+}
+.footer .contenedor-redes {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.footer h4 {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+.footer p {
+  font-size: 0.7rem;
+}
+.footer .img-redes-footer {
+  width: 10%;
+}
+
+.obras-container .tarjetas-container .p-obras {
+  font-size: 0.8rem;
+}
+.obras-container .tarjetas-container .titulo-tarjetas-obras {
+  font-size: 1.7rem;
+}
+.obras-container .tarjetas-container .text-body-secondary {
+  font-size: 0.8rem;
+}
+
+.footer .h3-footer {
+  font-size: 0.8rem;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=estilos.css.map */

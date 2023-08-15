@@ -1,61 +1,81 @@
 
+.index-container {
 
+  //contenido principal//
 
-.index-container{
+  .contenidoPrincipal {
 
-    //presentacion//
-
-    .presentacion{
-        background-size: cover;
-        background-position: center;
-        height: 100%;
-        padding: 30px 0px;
-        grid-area: presentacion;
-
-        h1{
-            font-size: 3rem;
-            text-align: center;
-            color: black;
-            text-shadow: -1px 1px 3px rgba(0,0,0,0.58);
-          }
-
-          p{
-            font-size: 1.5rem;
-            text-align: center;
-            color:black ;
-           
-          }
-
-    .contenidoPrincipal{
-
-        h2{
-            font-size: 1.5rem;
-            font-weight: bold;
-            text-decoration: underline;
-          }
-
-        .flexContent{
-            display: flex;
-            flex-direction: row;
-            padding-top: 3%;
-            
-          }
-
-        p{
-            font-size: 1rem;
-        
-          }
-
-        .texto1{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: start;
-            padding: 0px 100px;
-          }
-
+    h2 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-decoration: underline;
     }
+
+    .flexContent {
+      display: flex;
+      flex-direction: row;
+      padding-top: 3%;
+
+      .img1 {
+        width: 50%;
 
       }
 
+      .texto1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 0px 100px;
+      }
+
+    }
+
+    p {
+      font-size: 1rem;
+
+    }
+
+    .flexContentDos {
+      display: flex;
+      flex-direction: row-reverse;
+
+      .texto2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 0px 100px;
+      }
+
+
+      .img2 {
+        width: 50%;
+        padding-top: 2%;
+
+      }
+
+    }
+
+  }
+
+
+
+  .formulario {
+    width: 100%;
+    font-size: 1rem;
+    color: black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    .tituloFormIndex {
+      text-align: center;
+      font-size: 1.4rem;
+      font-style: italic;
+      padding-bottom: 2%;
+      text-shadow: -1px -3px 15px rgba(174, 167, 167, 0.65);
+
+    }
+
+  }
 }

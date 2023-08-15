@@ -40,3 +40,38 @@ header{
 
 
   }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3%;
+
+  .img-footer{
+    width: 5%;
+  }
+
+  .contenedor-redes{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+  }
+
+  h4{
+    font-size: 0.8rem;
+    font-style: italic;
+
+  }
+
+  p{
+    font-size: 0.7rem;
+
+  }
+
+  .img-redes-footer{
+    width: 10%;
+  }
+
+  
+}
