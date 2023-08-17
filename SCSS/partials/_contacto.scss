@@ -1,0 +1,41 @@
+.contacto-container {
+
+    .tituloForm {
+        font-size: 1.4rem;
+        font-style: italic;
+        padding-bottom: 2%;
+        text-decoration: underline;
+        height: 50%;
+        text-shadow: -1px -3px 15px rgba(174, 167, 167, 0.65);
+
+    }
+
+    .propia {
+        font-size: 1rem;
+
+    }
+
+    .boton-formulario {
+        background-color: $verdetitulo;
+        color: aliceblue;
+    }
+
+
+    .contenedorMapa {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+        padding-bottom: 5%;
+
+
+        .mapaTitulo {
+            font-size: 1.5rem;
+            padding: 2%;
+            text-decoration: underline;
+            color: $verdetitulo;
+        }
+    }
+
+}

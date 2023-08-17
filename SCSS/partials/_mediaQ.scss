@@ -1,0 +1,123 @@
+/*celulares--------------------------------------------------------------------*/
+@media only screen and (max-width:500px) {
+
+    //estilos comunes//
+    .header .propia-menu {
+    
+            .logo {
+                width: 15%;
+            }
+        }
+    
+        .presentacion {
+            h1 {
+                font-size: 1.9rem;
+            }
+    
+            p {
+                font-size: 0.9rem;
+            }
+    
+        }
+    
+        //Index//
+        .index-container {
+            .contenidoPrincipal {
+    
+    
+    
+                .flexContent {
+                    flex-direction: column;
+                    align-items: center;
+    
+                    p {
+                        font-size: 0.8rem
+                    }
+    
+                    .texto1 {
+                        text-align: justify;
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                        padding: 0;
+    
+    
+                    }
+                }
+    
+                .img1 {
+                    width: 60%;
+    
+                }
+    
+    
+                h2 {
+                    font-size: 1rem;
+                }
+    
+                .flexContentDos {
+                    flex-direction: column;
+                    align-items: center;
+                    margin: 10px;
+    
+                    .texto2 {
+                        text-align: justify;
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                        padding: 0%;
+    
+                    }
+    
+    
+                }
+    
+                .img2 {
+                    width: 60%;
+    
+                }
+    
+                .formulario {
+                    .tituloFormIndex {
+                        font-size: 1.2rem;
+    
+                    }
+    
+                }
+    
+    
+            }
+    
+    
+        }
+    
+        .footer {
+            flex-direction: column;
+            align-items: start;
+            border-top: #3c6156 solid 2px;
+            margin: 20px;
+            padding: 5px;
+    
+            .img-footer {
+                width: 17%;
+                padding: 15px 0px 15px 0px;
+            }
+    
+            p {
+                font-size: 0.7rem;
+            }
+    
+            h4 {
+                font-size: 0.9rem;
+            }
+    
+            .contenedor-redes {
+                width: 100%;
+    
+                .img-redes-footer {
+                    width: 8%;
+                }
+    
+            }
+    
+    
+        }
+    }

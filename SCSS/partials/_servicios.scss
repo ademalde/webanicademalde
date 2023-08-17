@@ -1,0 +1,32 @@
+.servicios-container {
+
+    .contenedor-tarjetas {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+
+        .tarjeta{
+            margin: 1%;
+
+            .img-tarjeta{
+                padding: 5px;
+            }
+        }
+
+        .p-servicios {
+            font-size: 0.9rem;
+        }
+
+
+    }
+
+    .h2-servicios {
+        font-size: 1.3rem;
+        color: $verdetitulo;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+    }
+
+}
