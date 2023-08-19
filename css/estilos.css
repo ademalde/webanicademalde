@@ -99,16 +99,14 @@ header .propia-menu .logo {
   margin-left: 5px;
   margin-right: 5px;
 }
-header .propia-menu .page {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-header .propia-menu .page .enlace {
+header .propia-menu .nav-link {
   color: #181818;
-  list-style: none;
-  text-decoration: none;
   font-weight: bold;
   font-size: 1.1rem;
+}
+header .propia-menu .nav-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
 }
 
 .footer {
@@ -151,12 +149,51 @@ header .propia-menu .page .enlace {
 .servicios-container .contenedor-tarjetas .p-servicios {
   font-size: 0.9rem;
 }
+.servicios-container .contenedor-servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.servicios-container .contenedor-servicios .contenedor-fila1 {
+  display: flex;
+  flex-direction: row;
+}
+.servicios-container .contenedor-servicios .contenedor-fila2 {
+  display: flex;
+  flex-direction: row;
+}
+.servicios-container .contenedor-servicios .imagen-servicio {
+  width: 296px;
+  height: 296px;
+  margin: 3px;
+}
+.servicios-container .contenedor-servicios .imagen-servicio:hover {
+  opacity: 0.6;
+}
+.servicios-container .contenedor-servicios .info {
+  position: absolute;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.servicios-container .contenedor-servicios .imagen-servicio:hover .info {
+  opacity: 1;
+}
+.servicios-container .contenedor-servicios .p-img-servicios {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 200px;
+  transition: margin-top 0.4s;
+}
+.servicios-container .contenedor-servicios .imagen-servicio:hover .p-img-servicios {
+  margin-top: 75px;
+}
 .servicios-container .h2-servicios {
   font-size: 1.3rem;
   color: #3c6156;
   font-weight: bold;
   text-align: center;
-  padding: 10px;
+  margin: 30px;
 }
 
 .obras-container .tarjetas-container .p-obras {
