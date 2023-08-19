@@ -22,10 +22,7 @@
       }
 
       .texto1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
+        @include flex (column,center,start);
         padding: 0px 100px;
       }
 
@@ -41,10 +38,7 @@
       flex-direction: row-reverse;
 
       .texto2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
+        @include flex (column,center,start);
         padding: 0px 100px;
       }
 

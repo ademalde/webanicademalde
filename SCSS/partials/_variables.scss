@@ -1,6 +1,11 @@
-$verdeclaro:#8b9595;
 $cremita:#f1e8e0;
-$beige:#b09b84;
+$beige:#b3a69a;
 $verdeoscuro:#8b9595;
-$gris:#787c7c;
-$verdetitulo:#3c6156
+$verdetitulo:#3c6156;
+
+@mixin flex ($direction,$justify,$align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}

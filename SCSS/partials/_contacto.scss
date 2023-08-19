@@ -17,17 +17,14 @@
 
     .boton-formulario {
         background-color: $verdetitulo;
-        color: aliceblue;
+        color: $cremita;
     }
 
 
     .contenedorMapa {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         height: 100%;
-        align-items: center;
         padding-bottom: 5%;
+        @include flex (column,center,center);
 
 
         .mapaTitulo {

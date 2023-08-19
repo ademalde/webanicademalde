@@ -88,11 +88,36 @@
     
     
         }
+
+        //Contacto//
+
+        .contacto-container{
+
+            .tituloForm{
+                font-size: 1.1rem;
+                padding-bottom: 5%;
+
+            }
+
+            .contenedorMapa{
+
+                .mapaTitulo{
+                    font-size: 1.2rem;
+                }
+
+            }
+
+            
+            
+
+
+
+        }
     
         .footer {
             flex-direction: column;
             align-items: start;
-            border-top: #3c6156 solid 2px;
+            border-top: $verdetitulo solid 2px;
             margin: 20px;
             padding: 5px;
     
