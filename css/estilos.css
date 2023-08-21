@@ -231,6 +231,11 @@ header .propia-menu .nav-link:hover {
   text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.58);
   padding: 5px;
 }
+.nosotras-container .mediaq {
+  font-size: 1.5rem;
+  text-align: center;
+  color: black;
+}
 .nosotras-container .contenedor-nosotras {
   display: grid;
   grid-template-areas: "item1   item2" "item3   item4" "item5   item5" "item6   item7";
@@ -242,7 +247,7 @@ header .propia-menu .nav-link:hover {
   color: #3c6156;
 }
 .nosotras-container .contenedor-nosotras .tamano-fuente {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .nosotras-container .contenedor-nosotras .grid-item1 {
   grid-area: item1;
@@ -291,19 +296,27 @@ header .propia-menu .nav-link:hover {
   background-color: #3c6156;
   color: #f1e8e0;
 }
-.contacto-container .contenedorMapa {
-  height: 100%;
-  padding-bottom: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.contacto-container .contenedorMapa .mapaTitulo {
+.contacto-container .mapaTitulo {
   font-size: 1.5rem;
   padding: 2%;
   text-decoration: underline;
   color: #3c6156;
+  text-align: center;
+}
+.contacto-container .map-responsive {
+  overflow: hidden;
+  padding-bottom: 400px;
+  position: relative;
+  height: 0;
+  align-items: center;
+  justify-content: center;
+}
+.contacto-container .map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 /*celulares--------------------------------------------------------------------*/
@@ -358,6 +371,44 @@ header .propia-menu .nav-link:hover {
     padding-bottom: 5%;
   }
   .contacto-container .contenedorMapa .mapaTitulo {
+    font-size: 1.2rem;
+  }
+  .nosotras-container .presentacion {
+    padding: 10px 0px;
+  }
+  .nosotras-container .mediaq {
+    display: none;
+  }
+  .nosotras-container .contenedor-nosotras {
+    grid-template-areas: "item2" "item1" "item3" "item4" "item5" "item6" "item7";
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 200px 300px 150px 50px 300px 300px;
+  }
+  .nosotras-container .contenedor-nosotras .grid-item1 {
+    text-align: center;
+  }
+  .nosotras-container .contenedor-nosotras .grid-item2 {
+    text-align: center;
+  }
+  .nosotras-container .contenedor-nosotras .grid-item3 {
+    text-align: center;
+  }
+  .nosotras-container .contenedor-nosotras .grid-item4 {
+    text-align: center;
+  }
+  .nosotras-container .contenedor-nosotras .tamano-fuente {
+    font-size: 0.8rem;
+  }
+  .obras-container .presentacion h1 {
+    font-size: 1.7rem;
+  }
+  .obras-container .tarjetas-container .titulo-tarjetas-obras {
+    font-size: 1.5rem;
+  }
+  .contacto-container .tituloForm {
+    font-size: 1.2rem;
+  }
+  .contacto-container .mapaTitulo {
     font-size: 1.2rem;
   }
   .footer {

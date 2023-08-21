@@ -1,10 +1,18 @@
 .nosotras-container {
+
+
     h1 {
         font-size: 2.5rem;
         text-align: center;
         color: black;
         text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.58);
         padding: 5px;
+    }
+
+    .mediaq {
+        font-size: 1.5rem;
+        text-align: center;
+        color: black;
     }
 
 
@@ -25,47 +33,47 @@
         }
 
         .tamano-fuente {
-            font-size: 0.8rem;
+            font-size: 0.9rem;
         }
 
         .grid-item1 {
             grid-area: item1;
             grid-column: 1/2;
             text-align: start;
-          }
-        
-          .grid-item2 {
+        }
+
+        .grid-item2 {
             grid-area: item2;
             text-align: end;
-        
-          }
-        
-          .grid-item3 {
+
+        }
+
+        .grid-item3 {
             grid-area: item3;
             grid-column: 1/2;
             text-align: start;
-          }
-        
-          .grid-item4 {
+        }
+
+        .grid-item4 {
             grid-area: item4;
             text-align: end;
-          }
-        
-          .grid-item5{
+        }
+
+        .grid-item5 {
             grid-area: item5;
             padding: 30px;
             text-align: center;
-          }
-        
-          .grid-item6{
-            grid-area:item6; 
+        }
+
+        .grid-item6 {
+            grid-area: item6;
             text-align: center;
-          }
-        
-          .grid-item7{
-            grid-area:item7;
+        }
+
+        .grid-item7 {
+            grid-area: item7;
             text-align: center;
-          }
-          
+        }
+
     }
 }

@@ -21,18 +21,31 @@
     }
 
 
-    .contenedorMapa {
-        height: 100%;
-        padding-bottom: 5%;
-        @include flex (column,center,center);
-
-
-        .mapaTitulo {
-            font-size: 1.5rem;
-            padding: 2%;
-            text-decoration: underline;
-            color: $verdetitulo;
-        }
+    .mapaTitulo {
+        font-size: 1.5rem;
+        padding: 2%;
+        text-decoration: underline;
+        color: $verdetitulo;
+        text-align: center;
     }
+
+    .map-responsive {
+        overflow: hidden;
+        padding-bottom: 400px;
+        position: relative;
+        height: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .map-responsive iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+
 
 }

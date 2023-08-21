@@ -3,147 +3,222 @@
 
     //estilos comunes//
     .header .propia-menu {
-    
-            .logo {
-                width: 15%;
-            }
-        }
-    
-        .presentacion {
-            h1 {
-                font-size: 1.9rem;
-            }
-    
-            p {
-                font-size: 0.9rem;
-            }
-    
-        }
-    
-        //Index//
-        .index-container {
-            .contenidoPrincipal {
-    
-    
-    
-                .flexContent {
-                    flex-direction: column;
-                    align-items: center;
-    
-                    p {
-                        font-size: 0.8rem
-                    }
-    
-                    .texto1 {
-                        text-align: justify;
-                        margin-top: 5px;
-                        margin-bottom: 5px;
-                        padding: 0;
-    
-    
-                    }
-                }
-    
-                .img1 {
-                    width: 60%;
-    
-                }
-    
-    
-                h2 {
-                    font-size: 1rem;
-                }
-    
-                .flexContentDos {
-                    flex-direction: column;
-                    align-items: center;
-                    margin: 10px;
-    
-                    .texto2 {
-                        text-align: justify;
-                        margin-top: 5px;
-                        margin-bottom: 5px;
-                        padding: 0%;
-    
-                    }
-    
-    
-                }
-    
-                .img2 {
-                    width: 60%;
-    
-                }
-    
-                .formulario {
-                    .tituloFormIndex {
-                        font-size: 1.2rem;
-    
-                    }
-    
-                }
-    
-    
-            }
-    
-    
-        }
 
-        //Contacto//
-
-        .contacto-container{
-
-            .tituloForm{
-                font-size: 1.1rem;
-                padding-bottom: 5%;
-
-            }
-
-            .contenedorMapa{
-
-                .mapaTitulo{
-                    font-size: 1.2rem;
-                }
-
-
-            }
-
-            
-            
-
-
-
-        }
-    
-        .footer {
-            flex-direction: column;
-            align-items: start;
-            border-top: $verdetitulo solid 2px;
-            margin: 20px;
-            padding: 5px;
-    
-            .img-footer {
-                width: 17%;
-                padding: 15px 0px 15px 0px;
-            }
-    
-            p {
-                font-size: 0.7rem;
-            }
-    
-            h4 {
-                font-size: 0.9rem;
-            }
-    
-            .contenedor-redes {
-                width: 100%;
-    
-                .img-redes-footer {
-                    width: 8%;
-                }
-    
-            }
-    
-    
+        .logo {
+            width: 15%;
         }
     }
+
+    .presentacion {
+        h1 {
+            font-size: 1.9rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+
+    }
+
+    //Index//
+    .index-container {
+        .contenidoPrincipal {
+
+
+
+            .flexContent {
+                flex-direction: column;
+                align-items: center;
+
+                p {
+                    font-size: 0.8rem
+                }
+
+                .texto1 {
+                    text-align: justify;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    padding: 0;
+
+
+                }
+            }
+
+            .img1 {
+                width: 60%;
+
+            }
+
+
+            h2 {
+                font-size: 1rem;
+            }
+
+            .flexContentDos {
+                flex-direction: column;
+                align-items: center;
+                margin: 10px;
+
+                .texto2 {
+                    text-align: justify;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    padding: 0%;
+
+                }
+
+
+            }
+
+            .img2 {
+                width: 60%;
+
+            }
+
+            .formulario {
+                .tituloFormIndex {
+                    font-size: 1.2rem;
+
+                }
+
+            }
+
+
+        }
+
+
+    }
+
+    //Contacto//
+
+    .contacto-container {
+
+        .tituloForm {
+            font-size: 1.1rem;
+            padding-bottom: 5%;
+
+        }
+
+        .contenedorMapa {
+
+            .mapaTitulo {
+                font-size: 1.2rem;
+            }
+
+
+        }
+
+    }
+
+    //Nosotras//
+
+    .nosotras-container {
+
+        .presentacion {
+            padding: 10px 0px;
+            ;
+        }
+
+        .mediaq {
+            display: none;
+        }
+
+        .contenedor-nosotras {
+            grid-template-areas:
+                "item2"
+                "item1"
+                "item3"
+                "item4"
+                "item5"
+                "item6"
+                "item7";
+
+            grid-template-columns: 1fr;
+            grid-template-rows: 300px 200px 300px 150px 50px 300px 300px;
+
+            .grid-item1 {
+                text-align: center;
+            }
+
+            .grid-item2 {
+                text-align: center;
+
+            }
+
+            .grid-item3 {
+                text-align: center;
+            }
+
+            .grid-item4 {
+                text-align: center;
+            }
+
+            .tamano-fuente {
+                font-size: 0.8rem;
+            }
+
+
+        }
+
+    }
+
+    //Obras//
+
+    .obras-container {
+        .presentacion h1 {
+
+            font-size: 1.7rem;
+
+        }
+
+        .tarjetas-container {
+            .titulo-tarjetas-obras {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    //Contacto//
+
+    .contacto-container {
+        .tituloForm {
+            font-size: 1.2rem;
+        }
+
+        .mapaTitulo {
+            font-size: 1.2rem;
+        }
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: start;
+        border-top: $verdetitulo solid 2px;
+        margin: 20px;
+        padding: 5px;
+
+        .img-footer {
+            width: 17%;
+            padding: 15px 0px 15px 0px;
+        }
+
+        p {
+            font-size: 0.7rem;
+        }
+
+        h4 {
+            font-size: 0.9rem;
+        }
+
+        .contenedor-redes {
+            width: 100%;
+
+            .img-redes-footer {
+                width: 8%;
+            }
+
+        }
+
+
+    }
+}
