@@ -1,76 +1,76 @@
 /*header...........................................................................................*/
 //header..........................................................................................//
 
-header{
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 4;
+header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 4;
 
-    .propia-menu{
-      background-color:$beige;
-      width: 100%; 
+  .propia-menu {
+    background-color: $beige;
+    width: 100%;
 
-      .logo{
-        margin-left: 5px;
-        margin-right: 5px;
-        
-      }
-      
-  
-      .nav-link{
-        color: black;
-        font-weight: bold;
-        font-size: 1.1rem;
-        margin-right: 30px;
-
-        &:hover{
-          opacity: 0.8;
-          text-decoration: underline;
-        }
-      }
-
-      
-
-   
+    .logo {
+      margin-left: 5px;
+      margin-right: 5px;
 
     }
-    
+
+
+    .nav-link {
+      color: black;
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-right: 30px;
+
+      &:hover {
+        opacity: 0.8;
+        text-decoration: underline;
+      }
+    }
+
+
+
 
 
   }
 
-.footer {
-  @include flex (row,space-between,center);
-  margin: 3%;
-  
 
-  .img-footer{
+
+}
+
+.footer {
+  @include flex (row, space-between, center);
+  margin: 3%;
+
+
+  .img-footer {
     width: 5%;
   }
 
-  .contenedor-redes{
+  .contenedor-redes {
     display: flex;
     flex-direction: column;
     width: 30%;
 
   }
 
-  h4{
+  h4 {
     font-size: 0.8rem;
     font-style: italic;
 
   }
 
-  p{
+  p {
     font-size: 0.7rem;
 
   }
 
-  .img-redes-footer{
+  .img-redes-footer {
     width: 8%;
   }
 
-  
+
 }

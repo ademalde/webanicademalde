@@ -15,7 +15,7 @@
         }
 
         p {
-            font-size: 0.9rem;
+            font-size: 1rem;
         }
 
     }
@@ -30,9 +30,7 @@
                 flex-direction: column;
                 align-items: center;
 
-                p {
-                    font-size: 0.8rem
-                }
+
 
                 .texto1 {
                     text-align: justify;
@@ -40,19 +38,24 @@
                     margin-bottom: 5px;
                     padding: 0;
 
+                    h2 {
+                        font-size: 1rem;
+                    }
+
+                    p {
+                        font-size: 0.8rem
+                    }
+
+
+                }
+
+                .img1 {
+                    width: 60%;
 
                 }
             }
 
-            .img1 {
-                width: 60%;
 
-            }
-
-
-            h2 {
-                font-size: 1rem;
-            }
 
             .flexContentDos {
                 flex-direction: column;
@@ -65,25 +68,32 @@
                     margin-bottom: 5px;
                     padding: 0%;
 
+                    h2 {
+                        font-size: 1rem;
+                    }
+
+                    p {
+                        font-size: 0.8rem
+                    }
+
+                }
+
+                .img2 {
+                    width: 60%;
+
                 }
 
 
             }
 
-            .img2 {
-                width: 60%;
+
+        }
+
+        .formulario {
+            .tituloFormIndex {
+                font-size: 1.2rem;
 
             }
-
-            .formulario {
-                .tituloFormIndex {
-                    font-size: 1.2rem;
-
-                }
-
-            }
-
-
         }
 
 
@@ -190,6 +200,35 @@
         }
     }
 
+    //Servicios//
+    .servicios-container {
+
+        .contenedor-servicios {
+            flex-direction: column;
+
+            .contenedor-fila1 {
+                flex-direction: column;
+
+            }
+
+            .contenedor-fila2 {
+                flex-direction: column;
+            }
+
+        }
+
+        .h2-servicios {
+            font-size: 1.2rem;
+        }
+
+    }
+
+
+
+
+
+
+    //Footer//
     .footer {
         flex-direction: column;
         align-items: start;

@@ -135,22 +135,6 @@ header .propia-menu .nav-link:hover {
   width: 8%;
 }
 
-.servicios-container .contenedor-tarjetas {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-}
-.servicios-container .contenedor-tarjetas .tarjeta {
-  margin: 1%;
-}
-.servicios-container .contenedor-tarjetas .tarjeta .img-tarjeta {
-  padding: 5px;
-}
-.servicios-container .contenedor-tarjetas .p-servicios {
-  font-size: 0.9rem;
-}
 .servicios-container .contenedor-servicios {
   display: flex;
   flex-direction: column;
@@ -177,11 +161,6 @@ header .propia-menu .nav-link:hover {
   text-align: center;
   justify-content: center;
   color: black;
-  opacity: 0;
-}
-.servicios-container .contenedor-servicios .p-img-servicios:hover {
-  opacity: 1;
-  z-index: 2;
 }
 .servicios-container .h2-servicios {
   font-size: 1.3rem;
@@ -328,14 +307,11 @@ header .propia-menu .nav-link:hover {
     font-size: 1.9rem;
   }
   .presentacion p {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .index-container .contenidoPrincipal .flexContent {
     flex-direction: column;
     align-items: center;
-  }
-  .index-container .contenidoPrincipal .flexContent p {
-    font-size: 0.8rem;
   }
   .index-container .contenidoPrincipal .flexContent .texto1 {
     text-align: justify;
@@ -343,11 +319,14 @@ header .propia-menu .nav-link:hover {
     margin-bottom: 5px;
     padding: 0;
   }
-  .index-container .contenidoPrincipal .img1 {
-    width: 60%;
-  }
-  .index-container .contenidoPrincipal h2 {
+  .index-container .contenidoPrincipal .flexContent .texto1 h2 {
     font-size: 1rem;
+  }
+  .index-container .contenidoPrincipal .flexContent .texto1 p {
+    font-size: 0.8rem;
+  }
+  .index-container .contenidoPrincipal .flexContent .img1 {
+    width: 60%;
   }
   .index-container .contenidoPrincipal .flexContentDos {
     flex-direction: column;
@@ -360,10 +339,16 @@ header .propia-menu .nav-link:hover {
     margin-bottom: 5px;
     padding: 0%;
   }
-  .index-container .contenidoPrincipal .img2 {
+  .index-container .contenidoPrincipal .flexContentDos .texto2 h2 {
+    font-size: 1rem;
+  }
+  .index-container .contenidoPrincipal .flexContentDos .texto2 p {
+    font-size: 0.8rem;
+  }
+  .index-container .contenidoPrincipal .flexContentDos .img2 {
     width: 60%;
   }
-  .index-container .contenidoPrincipal .formulario .tituloFormIndex {
+  .index-container .formulario .tituloFormIndex {
     font-size: 1.2rem;
   }
   .contacto-container .tituloForm {
@@ -409,6 +394,18 @@ header .propia-menu .nav-link:hover {
     font-size: 1.2rem;
   }
   .contacto-container .mapaTitulo {
+    font-size: 1.2rem;
+  }
+  .servicios-container .contenedor-servicios {
+    flex-direction: column;
+  }
+  .servicios-container .contenedor-servicios .contenedor-fila1 {
+    flex-direction: column;
+  }
+  .servicios-container .contenedor-servicios .contenedor-fila2 {
+    flex-direction: column;
+  }
+  .servicios-container .h2-servicios {
     font-size: 1.2rem;
   }
   .footer {

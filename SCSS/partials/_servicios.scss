@@ -1,23 +1,5 @@
 .servicios-container {
 
-    .contenedor-tarjetas {
-        @include flex(row,center,center);
-        margin: 20px;
-
-        .tarjeta {
-            margin: 1%;
-
-            .img-tarjeta {
-                padding: 5px;
-            }
-        }
-
-        .p-servicios {
-            font-size: 0.9rem;
-        }
-
-
-    }
 
     .contenedor-servicios {
         display: flex;
@@ -51,15 +33,6 @@
             text-align: center;
             justify-content: center;
             color: black;
-            opacity: 0;
-
-
-            &:hover {
-                opacity: 1;
-                z-index: 2;
-            }
-
-
         }
 
 

@@ -1,9 +1,9 @@
-$cremita:#f1e8e0;
-$beige:#b3a69a;
-$verdeoscuro:#8b9595;
-$verdetitulo:#3c6156;
+$cremita: #f1e8e0;
+$beige: #b3a69a;
+$verdeoscuro: #8b9595;
+$verdetitulo: #3c6156;
 
-@mixin flex ($direction,$justify,$align){
+@mixin flex ($direction, $justify, $align) {
     display: flex;
     flex-direction: $direction;
     justify-content: $justify;
