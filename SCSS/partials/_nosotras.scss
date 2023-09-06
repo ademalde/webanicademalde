@@ -46,12 +46,20 @@
             grid-area: item2;
             text-align: end;
 
+            .img-nosotras{
+                width: 400px;
+            }
+
         }
 
         .grid-item3 {
             grid-area: item3;
             grid-column: 1/2;
             text-align: start;
+
+            .img-nosotras{
+                width: 400px;
+            }
         }
 
         .grid-item4 {
@@ -68,11 +76,19 @@
         .grid-item6 {
             grid-area: item6;
             text-align: center;
+
+            .img-equipo{
+                width: 250px;
+            }
         }
 
         .grid-item7 {
             grid-area: item7;
             text-align: center;
+
+            .img-equipo{
+                width: 250px;
+            }
         }
 
     }

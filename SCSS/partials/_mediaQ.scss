@@ -2,12 +2,6 @@
 @media only screen and (max-width:500px) {
 
     //estilos comunes//
-    .header .propia-menu {
-
-        .logo {
-            width: 15%;
-        }
-    }
 
     .presentacion {
         h1 {
@@ -104,7 +98,7 @@
     .contacto-container {
 
         .tituloForm {
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             padding-bottom: 5%;
 
         }
@@ -119,6 +113,7 @@
         }
 
     }
+
 
     //Nosotras//
 
@@ -153,10 +148,18 @@
             .grid-item2 {
                 text-align: center;
 
+                .img-nosotras {
+                    width: 300px;
+                }
+
             }
 
             .grid-item3 {
                 text-align: center;
+
+                .img-nosotras {
+                    width: 300px;
+                }
             }
 
             .grid-item4 {
@@ -164,7 +167,19 @@
             }
 
             .tamano-fuente {
-                font-size: 0.8rem;
+                font-size: 0.7rem;
+            }
+
+            .grid-item6 {
+                .img-equipo {
+                    width: 160px;
+                }
+            }
+
+            .grid-item7 {
+                .img-equipo {
+                    width: 160px;
+                }
             }
 
 
@@ -188,17 +203,6 @@
         }
     }
 
-    //Contacto//
-
-    .contacto-container {
-        .tituloForm {
-            font-size: 1.2rem;
-        }
-
-        .mapaTitulo {
-            font-size: 1.2rem;
-        }
-    }
 
     //Servicios//
     .servicios-container {
@@ -219,6 +223,7 @@
 
         .h2-servicios {
             font-size: 1.2rem;
+            animation: none;
         }
 
     }
@@ -260,4 +265,267 @@
 
 
     }
+}
+
+/*Tablet..........................................................................................................*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    //estilos comunes//
+
+
+    .presentacion {
+        h1 {
+            font-size: 2.3rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+    }
+
+    //Index//
+    .index-container {
+        .contenidoPrincipal {
+
+
+
+            .flexContent {
+                flex-direction: column;
+                align-items: center;
+
+
+
+                .texto1 {
+                    text-align: justify;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    padding: 0;
+
+                    h2 {
+                        font-size: 1.5rem;
+                    }
+
+                    p {
+                        font-size: 1.2rem
+                    }
+
+
+                }
+
+                .img1 {
+                    width: 60%;
+
+                }
+            }
+
+
+
+            .flexContentDos {
+                flex-direction: column;
+                align-items: center;
+                margin: 10px;
+
+                .texto2 {
+                    text-align: justify;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    padding: 0%;
+
+                    h2 {
+                        font-size: 1.5rem;
+                    }
+
+                    p {
+                        font-size: 1.2rem
+                    }
+
+                }
+
+                .img2 {
+                    width: 60%;
+
+                }
+
+
+            }
+
+
+        }
+
+        .formulario {
+            .contenedorForm {
+                .propia {
+                    font-size: 1.1rem;
+                }
+
+                .boton-formulario {
+                    font-size: 1.1rem;
+                }
+            }
+
+            .tituloFormIndex {
+                font-size: 1.6rem;
+
+            }
+        }
+
+
+    }
+
+    //Contacto//
+
+    .contacto-container {
+
+        .tituloForm {
+            font-size: 1.3rem;
+            padding-bottom: 5%;
+
+        }
+
+        .propia {
+            font-size: 1.1rem;
+
+        }
+
+        .boton-formulario {
+            font-size: 1.1rem;
+        }
+
+        .contenedorMapa {
+
+            .mapaTitulo {
+                font-size: 1.2rem;
+            }
+
+
+        }
+
+    }
+
+    //Nosotras//
+
+    .nosotras-container {
+
+        .presentacion {
+            padding: 10px 0px;
+            ;
+        }
+
+        .mediaq {
+            display: none;
+        }
+
+        .contenedor-nosotras {
+
+            .tamano-fuente {
+                font-size: 1.1rem;
+            }
+
+            .grid-item2 {
+
+                .img-nosotras {
+                    width: 300px;
+                    margin-bottom: 10px;
+                }
+
+            }
+
+            .grid-item3 {
+
+                .img-nosotras {
+                    width: 300px;
+                    margin-top: 10px;
+                }
+            }
+
+            .grid-item6 {
+
+                .img-equipo {
+                    width: 220px;
+                }
+            }
+
+            .grid-item7 {
+
+                .img-equipo {
+                    width: 220px;
+                }
+            }
+
+
+        }
+
+    }
+
+    //Servicios//
+    .servicios-container {
+
+        .contenedor-servicios {
+
+            .contenedor-fila1 {
+                flex-wrap: wrap;
+                justify-content: center;
+
+            }
+
+            .contenedor-fila2 {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .p-img-servicios {
+                font-size: 1.1rem;
+                font-weight: bold;
+            }
+
+        }
+
+        .h2-servicios {
+            font-size: 1.4rem;
+            animation: none;
+        }
+
+
+
+    }
+
+
+    //Footer//
+    .footer {
+        flex-direction: column;
+        align-items: start;
+        border-top: $verdetitulo solid 2px;
+        margin: 20px;
+        padding: 5px;
+
+        .img-footer {
+            width: 10%;
+            padding: 15px 0px 15px 0px;
+        }
+
+        p {
+            font-size: 0.9rem;
+        }
+
+        h4 {
+            font-size: 1.1rem;
+        }
+
+        .contenedor-redes {
+            width: 100%;
+
+            .img-redes-footer {
+                width: 5%;
+            }
+
+        }
+
+
+    }
+
+
+
+
 }
