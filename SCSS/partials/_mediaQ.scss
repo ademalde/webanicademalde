@@ -3,6 +3,14 @@
 
     //estilos comunes//
 
+    header {
+        .propia-menu {
+            .nav-link {
+                font-size: 1rem;
+            }
+        }
+    }
+
     .presentacion {
         h1 {
             font-size: 1.9rem;
@@ -34,6 +42,7 @@
 
                     h2 {
                         font-size: 1rem;
+                        text-decoration: none;
                     }
 
                     p {
@@ -64,6 +73,7 @@
 
                     h2 {
                         font-size: 1rem;
+                        text-decoration: none;
                     }
 
                     p {
@@ -230,9 +240,6 @@
 
 
 
-
-
-
     //Footer//
     .footer {
         flex-direction: column;
@@ -273,6 +280,14 @@
 
     //estilos comunes//
 
+    header {
+        .propia-menu {
+            .nav-link {
+                font-size: 1.4rem;
+            }
+        }
+    }
+
 
     .presentacion {
         h1 {
@@ -304,7 +319,8 @@
                     padding: 0;
 
                     h2 {
-                        font-size: 1.5rem;
+                        font-size: 1.6rem;
+                        text-decoration: none;
                     }
 
                     p {
@@ -334,7 +350,8 @@
                     padding: 0%;
 
                     h2 {
-                        font-size: 1.5rem;
+                        font-size: 1.6rem;
+                        text-decoration: none;
                     }
 
                     p {
@@ -357,11 +374,11 @@
         .formulario {
             .contenedorForm {
                 .propia {
-                    font-size: 1.1rem;
+                    font-size: 1.3rem;
                 }
 
                 .boton-formulario {
-                    font-size: 1.1rem;
+                    font-size: 1.3rem;
                 }
             }
 
@@ -477,7 +494,6 @@
 
             .p-img-servicios {
                 font-size: 1.1rem;
-                font-weight: bold;
             }
 
         }
@@ -490,6 +506,29 @@
 
 
     }
+
+    //Obras//
+    .obras-container {
+
+        .tarjetas-container {
+
+            .p-obras {
+                font-size: 1rem;
+
+            }
+
+            .titulo-tarjetas-obras {
+                font-size: 1.6rem;
+                font-weight: bold;
+            }
+
+            .text-body-secondary {
+                font-size: 1rem;
+                font-weight: bolder;
+            }
+        }
+    }
+
 
 
     //Footer//

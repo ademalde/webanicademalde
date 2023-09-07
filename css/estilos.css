@@ -138,6 +138,16 @@ header .propia-menu .nav-link:hover {
 .footer .img-redes-footer {
   width: 8%;
 }
+.footer .whatsapp-icono {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #2dc163;
+  padding: 10px;
+  border-radius: 50%;
+  width: 60px;
+  z-index: 999;
+}
 
 .servicios-container .contenedor-servicios {
   display: flex;
@@ -165,6 +175,7 @@ header .propia-menu .nav-link:hover {
   text-align: center;
   justify-content: center;
   color: black;
+  font-weight: bold;
 }
 .servicios-container .h2-servicios {
   font-size: 1.3rem;
@@ -319,6 +330,9 @@ header .propia-menu .nav-link:hover {
 
 /*celulares--------------------------------------------------------------------*/
 @media only screen and (max-width: 500px) {
+  header .propia-menu .nav-link {
+    font-size: 1rem;
+  }
   .presentacion h1 {
     font-size: 1.9rem;
   }
@@ -337,6 +351,7 @@ header .propia-menu .nav-link:hover {
   }
   .index-container .contenidoPrincipal .flexContent .texto1 h2 {
     font-size: 1rem;
+    text-decoration: none;
   }
   .index-container .contenidoPrincipal .flexContent .texto1 p {
     font-size: 0.8rem;
@@ -357,6 +372,7 @@ header .propia-menu .nav-link:hover {
   }
   .index-container .contenidoPrincipal .flexContentDos .texto2 h2 {
     font-size: 1rem;
+    text-decoration: none;
   }
   .index-container .contenidoPrincipal .flexContentDos .texto2 p {
     font-size: 0.8rem;
@@ -457,6 +473,9 @@ header .propia-menu .nav-link:hover {
 }
 /*Tablet..........................................................................................................*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  header .propia-menu .nav-link {
+    font-size: 1.4rem;
+  }
   .presentacion h1 {
     font-size: 2.3rem;
   }
@@ -474,7 +493,8 @@ header .propia-menu .nav-link:hover {
     padding: 0;
   }
   .index-container .contenidoPrincipal .flexContent .texto1 h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    text-decoration: none;
   }
   .index-container .contenidoPrincipal .flexContent .texto1 p {
     font-size: 1.2rem;
@@ -494,7 +514,8 @@ header .propia-menu .nav-link:hover {
     padding: 0%;
   }
   .index-container .contenidoPrincipal .flexContentDos .texto2 h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    text-decoration: none;
   }
   .index-container .contenidoPrincipal .flexContentDos .texto2 p {
     font-size: 1.2rem;
@@ -503,10 +524,10 @@ header .propia-menu .nav-link:hover {
     width: 60%;
   }
   .index-container .formulario .contenedorForm .propia {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   .index-container .formulario .contenedorForm .boton-formulario {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   .index-container .formulario .tituloFormIndex {
     font-size: 1.6rem;
@@ -557,11 +578,22 @@ header .propia-menu .nav-link:hover {
   }
   .servicios-container .contenedor-servicios .p-img-servicios {
     font-size: 1.1rem;
-    font-weight: bold;
+    font-weight: bolder;
   }
   .servicios-container .h2-servicios {
     font-size: 1.4rem;
     animation: none;
+  }
+  .obras-container .tarjetas-container .p-obras {
+    font-size: 1rem;
+  }
+  .obras-container .tarjetas-container .titulo-tarjetas-obras {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  .obras-container .tarjetas-container .text-body-secondary {
+    font-size: 1rem;
+    font-weight: bolder;
   }
   .footer {
     flex-direction: column;
