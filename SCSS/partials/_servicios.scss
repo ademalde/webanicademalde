@@ -40,40 +40,31 @@
     }
 
     .h2-servicios {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         color: $verdetitulo;
         font-weight: bold;
         text-align: center;
         margin: 30px;
-        animation-name: h2;
-        animation-iteration-count: 1;
+        animation-name: trescolores;
         animation-duration: 3s;
-        animation-delay: 1s;
+        animation-iteration-count: infinite;
+
     }
 
-    @keyframes h2 {
+    @keyframes trescolores {
         0% {
-            transform: scale(0, 0);
-        }
-
-        25% {
-
-            transform: scale(1.1, 1.1);
+            color: $cremita
         }
 
         50% {
-            transform: scale(1.2, 1.2);
-        }
-
-        75% {
-            transform: scale(1.3, 1.3);
+            color: $verdetitulo
         }
 
         100% {
-            transform: scale(1.4, 1.4);
+            color: $verdeoscuro
         }
-
     }
+
 
 
 

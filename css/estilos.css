@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin&family=Nunito+Sans:wght@300;600&family=Nunito:wght@300&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -17,12 +18,14 @@ body {
   padding: 30px 0px;
   grid-area: presentacion;
 }
+
 .presentacion h1 {
   font-size: 3rem;
   text-align: center;
   color: black;
   text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.58);
 }
+
 .presentacion p {
   font-size: 1.5rem;
   text-align: center;
@@ -34,14 +37,17 @@ body {
   font-weight: bold;
   text-decoration: underline;
 }
+
 .index-container .contenidoPrincipal .flexContent {
   display: flex;
   flex-direction: row;
   padding-top: 3%;
 }
+
 .index-container .contenidoPrincipal .flexContent .img1 {
   width: 50%;
 }
+
 .index-container .contenidoPrincipal .flexContent .texto1 {
   display: flex;
   flex-direction: column;
@@ -49,13 +55,16 @@ body {
   align-items: start;
   padding: 0px 100px;
 }
+
 .index-container .contenidoPrincipal p {
   font-size: 1rem;
 }
+
 .index-container .contenidoPrincipal .flexContentDos {
   display: flex;
   flex-direction: row-reverse;
 }
+
 .index-container .contenidoPrincipal .flexContentDos .texto2 {
   display: flex;
   flex-direction: column;
@@ -63,10 +72,12 @@ body {
   align-items: start;
   padding: 0px 100px;
 }
+
 .index-container .contenidoPrincipal .flexContentDos .img2 {
   width: 50%;
   padding-top: 2%;
 }
+
 .index-container .formulario {
   width: 100%;
   font-size: 1rem;
@@ -74,6 +85,7 @@ body {
   padding-top: 3%;
   padding-bottom: 3%;
 }
+
 .index-container .formulario .tituloFormIndex {
   text-align: center;
   font-size: 1.4rem;
@@ -81,6 +93,7 @@ body {
   padding-bottom: 2%;
   text-shadow: -1px -3px 15px rgba(174, 167, 167, 0.65);
 }
+
 .index-container .formulario .boton-formulario {
   background-color: #8b9595;
 }
@@ -93,21 +106,25 @@ header {
   top: 0;
   z-index: 4;
 }
+
 header .propia-menu {
   background-color: #b3a69a;
   width: 100%;
 }
+
 header .propia-menu .logo {
   margin-left: 5px;
   margin-right: 5px;
   width: 75px;
 }
+
 header .propia-menu .nav-link {
   color: black;
   font-weight: bold;
   font-size: 1.1rem;
   margin-right: 30px;
 }
+
 header .propia-menu .nav-link:hover {
   opacity: 0.8;
   text-decoration: underline;
@@ -120,24 +137,30 @@ header .propia-menu .nav-link:hover {
   align-items: center;
   margin: 3%;
 }
+
 .footer .img-footer {
   width: 5%;
 }
+
 .footer .contenedor-redes {
   display: flex;
   flex-direction: column;
   width: 30%;
 }
+
 .footer h4 {
   font-size: 0.8rem;
   font-style: italic;
 }
+
 .footer p {
   font-size: 0.7rem;
 }
+
 .footer .img-redes-footer {
   width: 8%;
 }
+
 .footer .whatsapp-icono {
   position: fixed;
   bottom: 20px;
@@ -154,22 +177,27 @@ header .propia-menu .nav-link:hover {
   flex-direction: column;
   align-items: center;
 }
+
 .servicios-container .contenedor-servicios .contenedor-fila1 {
   display: flex;
   flex-direction: row;
 }
+
 .servicios-container .contenedor-servicios .contenedor-fila2 {
   display: flex;
   flex-direction: row;
 }
+
 .servicios-container .contenedor-servicios .imagen-servicio {
   width: 296px;
   height: 296px;
   margin: 3px;
 }
+
 .servicios-container .contenedor-servicios .imagen-servicio:hover {
   opacity: 0.6;
 }
+
 .servicios-container .contenedor-servicios .p-img-servicios {
   font-size: 1rem;
   text-align: center;
@@ -177,41 +205,40 @@ header .propia-menu .nav-link:hover {
   color: black;
   font-weight: bold;
 }
+
 .servicios-container .h2-servicios {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #3c6156;
   font-weight: bold;
   text-align: center;
   margin: 30px;
-  animation-name: h2;
-  animation-iteration-count: 1;
+  animation-name: trescolores;
   animation-duration: 3s;
-  animation-delay: 1s;
+  animation-iteration-count: infinite;
 }
-@keyframes h2 {
+
+@keyframes trescolores {
   0% {
-    transform: scale(0, 0);
+    color: #f1e8e0;
   }
-  25% {
-    transform: scale(1.1, 1.1);
-  }
+
   50% {
-    transform: scale(1.2, 1.2);
+    color: #3c6156;
   }
-  75% {
-    transform: scale(1.3, 1.3);
-  }
+
   100% {
-    transform: scale(1.4, 1.4);
+    color: #8b9595;
   }
 }
 
 .obras-container .tarjetas-container .p-obras {
   font-size: 0.8rem;
 }
+
 .obras-container .tarjetas-container .titulo-tarjetas-obras {
   font-size: 1.7rem;
 }
+
 .obras-container .tarjetas-container .text-body-secondary {
   font-size: 0.8rem;
 }
@@ -228,11 +255,13 @@ header .propia-menu .nav-link:hover {
   text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.58);
   padding: 5px;
 }
+
 .nosotras-container .mediaq {
   font-size: 1.5rem;
   text-align: center;
   color: black;
 }
+
 .nosotras-container .contenedor-nosotras {
   display: grid;
   grid-template-areas: "item1   item2" "item3   item4" "item5   item5" "item6   item7";
@@ -240,52 +269,65 @@ header .propia-menu .nav-link:hover {
   justify-content: center;
   align-items: center;
 }
+
 .nosotras-container .contenedor-nosotras .nombre-arquitecta {
   color: #3c6156;
 }
+
 .nosotras-container .contenedor-nosotras .tamano-fuente {
   font-size: 0.9rem;
 }
+
 .nosotras-container .contenedor-nosotras .grid-item1 {
   grid-area: item1;
   grid-column: 1/2;
   text-align: start;
 }
+
 .nosotras-container .contenedor-nosotras .grid-item2 {
   grid-area: item2;
   text-align: end;
 }
+
 .nosotras-container .contenedor-nosotras .grid-item2 .img-nosotras {
   width: 400px;
 }
+
 .nosotras-container .contenedor-nosotras .grid-item3 {
   grid-area: item3;
   grid-column: 1/2;
   text-align: start;
 }
+
 .nosotras-container .contenedor-nosotras .grid-item3 .img-nosotras {
   width: 400px;
 }
+
 .nosotras-container .contenedor-nosotras .grid-item4 {
   grid-area: item4;
   text-align: end;
 }
+
 .nosotras-container .contenedor-nosotras .grid-item5 {
   grid-area: item5;
   padding: 30px;
   text-align: center;
 }
+
 .nosotras-container .contenedor-nosotras .grid-item6 {
   grid-area: item6;
   text-align: center;
 }
+
 .nosotras-container .contenedor-nosotras .grid-item6 .img-equipo {
   width: 250px;
 }
+
 .nosotras-container .contenedor-nosotras .grid-item7 {
   grid-area: item7;
   text-align: center;
 }
+
 .nosotras-container .contenedor-nosotras .grid-item7 .img-equipo {
   width: 250px;
 }
@@ -298,13 +340,16 @@ header .propia-menu .nav-link:hover {
   height: 50%;
   text-shadow: -1px -3px 15px rgba(174, 167, 167, 0.65);
 }
+
 .contacto-container .propia {
   font-size: 1rem;
 }
+
 .contacto-container .boton-formulario {
   background-color: #3c6156;
   color: #f1e8e0;
 }
+
 .contacto-container .mapaTitulo {
   font-size: 1.5rem;
   padding: 2%;
@@ -312,6 +357,7 @@ header .propia-menu .nav-link:hover {
   color: #3c6156;
   text-align: center;
 }
+
 .contacto-container .map-responsive {
   overflow: hidden;
   padding-bottom: 400px;
@@ -320,6 +366,7 @@ header .propia-menu .nav-link:hover {
   align-items: center;
   justify-content: center;
 }
+
 .contacto-container .map-responsive iframe {
   left: 0;
   top: 0;
@@ -333,117 +380,150 @@ header .propia-menu .nav-link:hover {
   .presentacion h1 {
     font-size: 1.9rem;
   }
+
   .presentacion p {
     font-size: 1rem;
   }
+
   .index-container .contenidoPrincipal .flexContent {
     flex-direction: column;
     align-items: center;
   }
+
   .index-container .contenidoPrincipal .flexContent .texto1 {
     text-align: justify;
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 0;
   }
+
   .index-container .contenidoPrincipal .flexContent .texto1 h2 {
     font-size: 1rem;
     text-decoration: none;
   }
+
   .index-container .contenidoPrincipal .flexContent .texto1 p {
     font-size: 0.8rem;
   }
+
   .index-container .contenidoPrincipal .flexContent .img1 {
     width: 60%;
   }
+
   .index-container .contenidoPrincipal .flexContentDos {
     flex-direction: column;
     align-items: center;
     margin: 10px;
   }
+
   .index-container .contenidoPrincipal .flexContentDos .texto2 {
     text-align: justify;
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 0%;
   }
+
   .index-container .contenidoPrincipal .flexContentDos .texto2 h2 {
     font-size: 1rem;
     text-decoration: none;
   }
+
   .index-container .contenidoPrincipal .flexContentDos .texto2 p {
     font-size: 0.8rem;
   }
+
   .index-container .contenidoPrincipal .flexContentDos .img2 {
     width: 60%;
   }
+
   .index-container .formulario .tituloFormIndex {
     font-size: 1.2rem;
   }
+
   .contacto-container .tituloForm {
     font-size: 1.2rem;
     padding-bottom: 5%;
   }
+
   .contacto-container .contenedorMapa .mapaTitulo {
     font-size: 1.2rem;
   }
+
   .nosotras-container .presentacion {
     padding: 10px 0px;
   }
+
   .nosotras-container .mediaq {
     display: none;
   }
+
   .nosotras-container .contenedor-nosotras {
     grid-template-areas: "item2" "item1" "item3" "item4" "item5" "item6" "item7";
     grid-template-columns: 1fr;
     grid-template-rows: 300px 200px 300px 150px 50px 300px 300px;
   }
+
   .nosotras-container .contenedor-nosotras .grid-item1 {
     text-align: center;
   }
+
   .nosotras-container .contenedor-nosotras .grid-item2 {
     text-align: center;
   }
+
   .nosotras-container .contenedor-nosotras .grid-item2 .img-nosotras {
     width: 300px;
   }
+
   .nosotras-container .contenedor-nosotras .grid-item3 {
     text-align: center;
   }
+
   .nosotras-container .contenedor-nosotras .grid-item3 .img-nosotras {
     width: 300px;
   }
+
   .nosotras-container .contenedor-nosotras .grid-item4 {
     text-align: center;
   }
+
   .nosotras-container .contenedor-nosotras .tamano-fuente {
     font-size: 0.7rem;
   }
+
   .nosotras-container .contenedor-nosotras .grid-item6 .img-equipo {
     width: 160px;
   }
+
   .nosotras-container .contenedor-nosotras .grid-item7 .img-equipo {
     width: 160px;
   }
+
   .obras-container .presentacion h1 {
     font-size: 1.7rem;
   }
+
   .obras-container .tarjetas-container .titulo-tarjetas-obras {
     font-size: 1.5rem;
   }
+
   .servicios-container .contenedor-servicios {
     flex-direction: column;
   }
+
   .servicios-container .contenedor-servicios .contenedor-fila1 {
     flex-direction: column;
   }
+
   .servicios-container .contenedor-servicios .contenedor-fila2 {
     flex-direction: column;
   }
+
   .servicios-container .h2-servicios {
     font-size: 1.2rem;
     animation: none;
   }
+
   .footer {
     flex-direction: column;
     align-items: start;
@@ -451,143 +531,182 @@ header .propia-menu .nav-link:hover {
     margin: 20px;
     padding: 5px;
   }
+
   .footer .img-footer {
     width: 17%;
     padding: 15px 0px 15px 0px;
   }
+
   .footer p {
     font-size: 0.7rem;
   }
+
   .footer h4 {
     font-size: 0.9rem;
   }
+
   .footer .contenedor-redes {
     width: 100%;
   }
+
   .footer .contenedor-redes .img-redes-footer {
     width: 8%;
   }
 }
+
 /*Tablet..........................................................................................................*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .presentacion h1 {
     font-size: 2.3rem;
   }
+
   .presentacion p {
     font-size: 1.5rem;
   }
+
   .index-container .contenidoPrincipal .flexContent {
     flex-direction: column;
     align-items: center;
   }
+
   .index-container .contenidoPrincipal .flexContent .texto1 {
     text-align: justify;
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 0;
   }
+
   .index-container .contenidoPrincipal .flexContent .texto1 h2 {
     font-size: 1.6rem;
     text-decoration: none;
   }
+
   .index-container .contenidoPrincipal .flexContent .texto1 p {
     font-size: 1.2rem;
   }
+
   .index-container .contenidoPrincipal .flexContent .img1 {
     width: 60%;
   }
+
   .index-container .contenidoPrincipal .flexContentDos {
     flex-direction: column;
     align-items: center;
     margin: 10px;
   }
+
   .index-container .contenidoPrincipal .flexContentDos .texto2 {
     text-align: justify;
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 0%;
   }
+
   .index-container .contenidoPrincipal .flexContentDos .texto2 h2 {
     font-size: 1.6rem;
     text-decoration: none;
   }
+
   .index-container .contenidoPrincipal .flexContentDos .texto2 p {
     font-size: 1.2rem;
   }
+
   .index-container .contenidoPrincipal .flexContentDos .img2 {
     width: 60%;
   }
+
   .index-container .formulario .contenedorForm .propia {
     font-size: 1.3rem;
   }
+
   .index-container .formulario .contenedorForm .boton-formulario {
     font-size: 1.3rem;
   }
+
   .index-container .formulario .tituloFormIndex {
     font-size: 1.6rem;
   }
+
   .contacto-container .tituloForm {
     font-size: 1.3rem;
     padding-bottom: 5%;
   }
+
   .contacto-container .propia {
     font-size: 1.1rem;
   }
+
   .contacto-container .boton-formulario {
     font-size: 1.1rem;
   }
+
   .contacto-container .contenedorMapa .mapaTitulo {
     font-size: 1.2rem;
   }
+
   .nosotras-container .presentacion {
     padding: 10px 0px;
   }
+
   .nosotras-container .mediaq {
     display: none;
   }
+
   .nosotras-container .contenedor-nosotras .tamano-fuente {
     font-size: 1.1rem;
   }
+
   .nosotras-container .contenedor-nosotras .grid-item2 .img-nosotras {
     width: 300px;
     margin-bottom: 10px;
   }
+
   .nosotras-container .contenedor-nosotras .grid-item3 .img-nosotras {
     width: 300px;
     margin-top: 10px;
   }
+
   .nosotras-container .contenedor-nosotras .grid-item6 .img-equipo {
     width: 220px;
   }
+
   .nosotras-container .contenedor-nosotras .grid-item7 .img-equipo {
     width: 220px;
   }
+
   .servicios-container .contenedor-servicios .contenedor-fila1 {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .servicios-container .contenedor-servicios .contenedor-fila2 {
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .servicios-container .contenedor-servicios .p-img-servicios {
     font-size: 1.1rem;
   }
+
   .servicios-container .h2-servicios {
     font-size: 1.4rem;
     animation: none;
   }
+
   .obras-container .tarjetas-container .p-obras {
     font-size: 1rem;
   }
+
   .obras-container .tarjetas-container .titulo-tarjetas-obras {
     font-size: 1.6rem;
     font-weight: bold;
   }
+
   .obras-container .tarjetas-container .text-body-secondary {
     font-size: 1rem;
     font-weight: bolder;
   }
+
   .footer {
     flex-direction: column;
     align-items: start;
@@ -595,19 +714,24 @@ header .propia-menu .nav-link:hover {
     margin: 20px;
     padding: 5px;
   }
+
   .footer .img-footer {
     width: 10%;
     padding: 15px 0px 15px 0px;
   }
+
   .footer p {
     font-size: 0.9rem;
   }
+
   .footer h4 {
     font-size: 1.1rem;
   }
+
   .footer .contenedor-redes {
     width: 100%;
   }
+
   .footer .contenedor-redes .img-redes-footer {
     width: 5%;
   }
