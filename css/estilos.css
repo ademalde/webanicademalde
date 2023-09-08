@@ -145,7 +145,7 @@ header .propia-menu .nav-link:hover {
   background-color: #2dc163;
   padding: 10px;
   border-radius: 50%;
-  width: 60px;
+  width: 50px;
   z-index: 999;
 }
 
@@ -330,9 +330,6 @@ header .propia-menu .nav-link:hover {
 
 /*celulares--------------------------------------------------------------------*/
 @media only screen and (max-width: 500px) {
-  header .propia-menu .nav-link {
-    font-size: 1rem;
-  }
   .presentacion h1 {
     font-size: 1.9rem;
   }
@@ -473,9 +470,6 @@ header .propia-menu .nav-link:hover {
 }
 /*Tablet..........................................................................................................*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  header .propia-menu .nav-link {
-    font-size: 1.4rem;
-  }
   .presentacion h1 {
     font-size: 2.3rem;
   }
@@ -578,7 +572,6 @@ header .propia-menu .nav-link:hover {
   }
   .servicios-container .contenedor-servicios .p-img-servicios {
     font-size: 1.1rem;
-    font-weight: bolder;
   }
   .servicios-container .h2-servicios {
     font-size: 1.4rem;
